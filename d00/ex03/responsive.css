@@ -1,0 +1,99 @@
+body
+{
+	background-image: url("https://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
+}
+h1
+{
+	text-align: center;
+	color: #FFFAFA;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	font-size: 4vmin;
+	font-family: Verdana, sans-serif;
+}
+table
+{
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	border-spacing: 5px;
+}
+td
+{
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	height: 100%;
+}
+td.empty
+{
+	border: none;
+}
+.mass
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: "Lucida Console", monospace;
+	font-size: 1vmin;
+	text-align: right;
+}
+.element
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	font-size: 2vmin;
+	text-align: center;
+}
+.number
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: "Lucida Console", monospace;
+	font-size: 1vmin;
+	text-align: left;
+}
+td.diatomic_nonmetal
+{
+	background-color: #FFA54F;
+}
+td.noble_gas
+{
+	background-color: #7EC0EE;
+}
+td.polyatomic_nonmetal
+{
+	background-color: #8FBC8F;
+}
+td.metalloid
+{
+	background-color: #CDAA7D;
+}
+td.post_transition_metal
+{
+	background-color: #8B7D6B;
+}
+td.transition_metal
+{
+	background-color: #FFA07A;
+}
+td.actinide
+{
+	background-color: #EE7AE9;
+}
+td.lanthanide
+{
+	background-color: #FFB5C5;
+}
+td.alkaline_earth_metal
+{
+	background-color: #FFD39B;
+}
+td.alkali_metal
+{
+	background-color: #FA8072;
+}
+td.unknown
+{
+	background-color: #CDB79E;
+}

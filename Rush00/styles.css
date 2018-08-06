@@ -1,0 +1,295 @@
+#landing {
+	left: 0px;
+	top: 5px;
+	width: 860px;
+	background-color: #FFA07A;
+	border-radius: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#header {
+	float: left;
+	width: 860px;
+	height: 310px;
+	background-image: url('./img/logo.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 860px 310px;
+	background-color: #FA8072;
+	border-radius: 10px;
+	box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#header h1 {
+	font: 60px/58px arial, Helvetica, sans-serif;
+	color: #FFE1C3;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: auto;
+	letter-spacing: -0.5px;
+}
+
+#header ul.navigation {
+	float: left;
+	padding: 0px;
+	margin: 20px 0px 0px 20px;
+	width: 800px;
+	text-align: center;
+	transition: all 0.1s ease;
+	background-color: #FFA07A;
+	border-radius: 10px;
+}
+
+#header ul.navigation li {
+	height: 22px;
+	padding: 0 10px 0 10px;
+	margin: 0;
+	display: inline;
+}
+
+#header ul.navigation li a {
+	background-position: 0px 16px;
+	padding: 5px 15px 5px 15px;
+	font: 28px "tw Cen MT";
+	color: #FFE1C3;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-weight: bold;
+	margin: auto;
+	letter-spacing: -0.5px;
+	line-height: 35px;
+}
+
+#header ul.navigation li a:hover {
+	color: #8B4C39;
+	text-decoration: none;
+	background: #FFA07A;
+	border-radius: 8px;
+	box-shadow: 0px 4px 6px rgba(0,0,0,0.25), 0px 2px 2px rgba(0,0,0,0.22);
+}
+
+#header ul#sweets {
+	float: left;
+	background-color: #FFA07A;
+	border-radius: 10px;
+	display: none;
+}
+
+#header ul.navigation li:hover ul#sweets {
+	display: block;
+	position: absolute;
+	float: left;
+	padding: 0px;
+	margin: 1px 0px 0px 185px;
+	width: 135px;
+	text-align: center;
+	background-color: #FFA07A;
+}
+
+#header ul#sweets li a{
+	background-position: 0px 16px;
+	padding: 5px 5px 5px 5px;
+	font: 20px "tw Cen MT";
+	color: #FFE1C3;
+	text-decoration: none;
+	text-indent: 0px;
+	text-transform: lowercase;
+	font-weight: bold;
+	margin: auto;
+	letter-spacing: -0.5px;
+	line-height: 35px;
+	background-repeat: no-repeat;
+}
+
+#header ul#sweets li a:hover{
+	color: #8B4C39;
+	text-decoration: none;
+	background: #FFA07A;
+	border-radius: 8px;
+	box-shadow: 0px 4px 6px rgba(0,0,0,0.25), 0px 2px 2px rgba(0,0,0,0.22);
+}
+
+#categories {
+	float: left;
+	left: 0px;
+	top: 310px;
+	width: 245px;
+}
+
+#categories h2 {
+	padding: 10px 0px 0px 40px;
+	margin: 10px 0px 0px 35px;
+	font: 26px/24px arial, Helvetica, sans-serif;
+	color: #FFE1C3;
+	font-weight: normal;
+	display: block;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	height: 50px;
+}
+
+#categories ul {
+	padding: 0px;
+	display: block;
+	margin: 5px 0px 10px 60px;
+	list-style: none;
+}
+
+#categories ul li {
+	padding: 0px;
+	margin: 0px;
+}
+
+#categories ul li a{
+	color: #8B4C39;
+	font: 13px verdana;
+	padding: 2px 0px 2px 16px;
+	display: block;
+	text-decoration: underline;
+	font-weight: bold;
+	text-transform: lowercase;
+}
+
+#categories ul li a:hover {
+	text-decoration: none;
+	transform: scale(1.1);
+}
+
+#centre_field {
+	float: left;
+	left: 245px;
+	top: 310px;
+	width: 610px;
+}
+
+#centre_field h2 {
+	padding: 10px 0px 0px 40px;
+	margin: 10px 0 0px 0px;
+	font: 30px/28px arial, Helvetica, sans-serif;
+	color: #eafece;
+	font-weight: normal;
+	display: block;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	height: 50px;
+}
+
+#centre_text p {
+	margin: 0px;
+	color: #000000;
+	padding: 0 0 0 35px;
+	width: 530px;
+	display: block;
+	font: 13px/20px verdana;
+	letter-spacing: 0px;
+}
+
+#centre_text a {
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+
+#centre_text a:hover {
+	text-decoration: none;
+}
+
+#footer {
+	float: left;
+	left: 0px;
+	top: 680px;
+	width: 100%;
+	height: 90px;
+}
+
+#footer  p {
+	padding: 20px 0 20px 0;
+	margin: 0px;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-family: verdana;
+	font-size: 10px;
+	line-height: 18px;
+	color: #000000;
+}
+
+#footer a {
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
+
+#clear {
+	clear:both;
+}
+
+#table {
+	float: left;
+	display: inline;
+	width: 200px;
+	background-color: #FFA07A;
+	border-radius: 10px;
+	padding: 5px 5px 5px 5px;
+	box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin: 10px 20px 0px 0px;
+}
+
+#table a{
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+	font-family: verdana;
+	text-align: center;
+	letter-spacing: -0.5px;	
+}
+
+#table a:hover {
+	text-decoration: none;
+}
+
+#actions {
+	font: 30px/28px arial, Helvetica, sans-serif;
+	color: #8B4C39;
+	font-weight: bold;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+
+#form {
+	width: 100%;
+	padding: 2px 0px 2px 50px;
+}
+
+#submit {
+	border: 1px solid #8B4C39;
+    border-radius: 4px;
+    background-color: #FFDAB9;
+    margin-left: 4px;
+    height: 35px;
+    font: 14px arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(#FFDAB9 0%, #FA8072 0%, #FFDAB9 0%, #FA8072 100%);
+    margin: 15px 5px 15px 50px;
+}
+
+label {
+	color: #8B4C39;
+	font: 15px verdana;
+	display: block;
+	font-weight: bold;
+}
+
+body {
+	margin: 0px;
+	background-color: #FFDAB9;
+}
